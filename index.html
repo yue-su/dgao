@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="has-navbar-fixed-top">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -9,16 +9,18 @@
       href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
     />
     <link rel="stylesheet" href="./index.css" />
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script>
   </head>
   <body class="has-text-black-bis">
     <section class="hero is-fullheight">
       <div class="hero-head">
-        <nav class="navbar">
+        <nav class="navbar is-fixed-top has-background-white-bis">
           <div class="container">
             <div class="navbar-brand">
               <a
                 role="button"
                 class="navbar-burger"
+                data-target="navMenu"
                 aria-label="menu"
                 aria-expanded="false"
               >
@@ -27,7 +29,7 @@
                 <span aria-hidden="true"></span>
               </a>
             </div>
-            <div class="navbar-menu">
+            <div class="navbar-menu" id="navMenu">
               <div class="navbar-end">
                 <a class="navbar-item is-medium">
                   <span class="icon-text">
@@ -323,7 +325,12 @@
             </div>
             <div class="field is-grouped">
               <div class="control">
-                <button class="button is-link" type="submit">Submit</button>
+                <button
+                  class="button is-link is-rounded is-outlined"
+                  type="submit"
+                >
+                  Submit
+                </button>
               </div>
             </div>
           </form>
@@ -331,8 +338,5 @@
       </div>
     </section>
   </body>
-  <script
-    defer
-    src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
-  ></script>
+  <script defer src="./index.js"></script>
 </html>
