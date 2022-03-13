@@ -4,29 +4,98 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>DGao</title>
-    <link rel="stylesheet" href="./bulmaswatch.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="./index.css" />
   </head>
-  <body>
-    <nav class="section">
-      <div class="container">
-        <div class="columns">
-          <div class="column">
-            <a class="button is-medium">Home</a>
-            <a class="button is-medium">Service</a>
-            <a class="button is-medium">About</a>
-            <a class="button is-medium">contact</a>
-            <a class="button is-medium">EN/CN</a>
+  <body class="has-text-black-bis">
+    <section class="hero is-large">
+      <div class="hero-head">
+        <nav class="navbar">
+          <div class="container">
+            <div class="navbar-brand">
+              <a
+                role="button"
+                class="navbar-burger"
+                aria-label="menu"
+                aria-expanded="false"
+              >
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+              </a>
+            </div>
+            <div class="navbar-menu">
+              <div class="navbar-end">
+                <a class="navbar-item is-medium">
+                  <span class="icon-text">
+                    <span class="icon">
+                      <i class="fas fa-home"></i>
+                    </span>
+                    <span>首页</span>
+                  </span>
+                </a>
+                <a class="navbar-item is-medium">
+                  <span class="icon-text">
+                    <span class="icon">
+                      <i class="fas fa-home"></i>
+                    </span>
+                    <span>服务</span>
+                  </span>
+                </a>
+                <a class="navbar-item is-medium">
+                  <span class="icon-text">
+                    <span class="icon">
+                      <i class="fas fa-home"></i>
+                    </span>
+                    <span>关于</span>
+                  </span>
+                </a>
+                <a class="navbar-item is-medium">
+                  <span class="icon-text">
+                    <span class="icon">
+                      <i class="fas fa-home"></i>
+                    </span>
+                    <span>联系</span>
+                  </span>
+                </a>
+                <span class="navbar-item">
+                  <a class="button is-primary is-inverted">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>EN/中文</span>
+                  </a>
+                </span>
+              </div>
+            </div>
           </div>
-          <div class="column"></div>
-        </div>
+        </nav>
       </div>
-    </nav>
-    <section class="section">
-      <div class="container">
-        <div class="">
-          <figure class="image is-128x128">
-            <img class="is-rounded" src="./images/Gao_avatar_2.jpg" />
-          </figure>
+
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns is-centered">
+            <div class="column has-text-centered is-half">
+              <figure class="image is-128x128 is-inline-block my-5">
+                <img class="is-rounded" src="./images/Gao_avatar_2.jpg" />
+              </figure>
+              <div class="columns is-mobile">
+                <div class="column is-half has-text-right">
+                  <figure class="is-inline-block">
+                    <img class="" src="./images/rcic.jpg" width="200" />
+                  </figure>
+                </div>
+                <div class="column is-half has-text-left">
+                  <h1 class="title is-3">Daniel Gao</h1>
+                  <h2 class="subtitle is-5">高建成</h2>
+                  <h2 class="subtitle is-6">加拿大持牌移民顾问 (RICC)</h2>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -36,7 +105,7 @@
           <div class="column">
             <div class="columns">
               <div class="column">
-                <div class="card">
+                <div class="card has-background-white-bis">
                   <div class="card-header">
                     <div class="card-header-title">
                       <h3 class="is-size-4">加拿大移民</h3>
@@ -47,18 +116,16 @@
                       ></span>
                     </div>
                   </div>
-                  <div class="card-content">
-                    <ul>
-                      <li>加拿大各省PNP省提名移民</li>
-                      <li>加拿大留学经验类移民</li>
-                      <li>加拿大联邦技术移民</li>
-                      <li>加拿大家庭团聚移民</li>
-                    </ul>
+                  <div class="card-content content is-medium">
+                    <p>各省PNP省提名移民</p>
+                    <p>留学经验类移民</p>
+                    <p>联邦技术移民</p>
+                    <p>家庭团聚移民</p>
                   </div>
                 </div>
               </div>
               <div class="column">
-                <div class="card">
+                <div class="card has-background-white-bis">
                   <div class="card-header">
                     <div class="card-header-title">
                       <h3 class="is-size-4">加拿大签证</h3>
@@ -69,18 +136,16 @@
                       ></span>
                     </div>
                   </div>
-                  <div class="card-content">
-                    <ul>
-                      <li>加拿大学签</li>
-                      <li>加拿大工签</li>
-                      <li>加拿大企业家工签</li>
-                      <li>加拿大公司外派工签</li>
-                    </ul>
+                  <div class="card-content content is-medium">
+                    <p>学签，工作签证</p>
+                    <p>旅游，探亲签证</p>
+                    <p>企业家工签</p>
+                    <p>公司外派工签</p>
                   </div>
                 </div>
               </div>
               <div class="column">
-                <div class="card">
+                <div class="card has-background-white-bis">
                   <div class="card-header">
                     <div class="card-header-title">
                       <h3 class="is-size-4">加拿大留学</h3>
@@ -91,13 +156,11 @@
                       ></span>
                     </div>
                   </div>
-                  <div class="card-content">
-                    <ul>
-                      <li>学生背景评估</li>
-                      <li>选择学校/专业</li>
-                      <li>详细的申请提案</li>
-                      <li>申请递交、与校方沟通</li>
-                    </ul>
+                  <div class="card-content content is-medium">
+                    <p>学生背景评估</p>
+                    <p>选择学校/专业</p>
+                    <p>详细的申请提案</p>
+                    <p>申请递交、与校方沟通</p>
                   </div>
                 </div>
               </div>
@@ -111,33 +174,9 @@
         <div class="columns">
           <div class="column">
             <h1 class="title">Daneil Gao</h1>
-            <p class="subtitle">
-              My first website with <strong>Bulma</strong>!
-            </p>
-            <p class="block">
-              Daniel Gao is a Regulated Canadian Immigration Consultant (RCIC)
-              and an active member of the College of Immigration and Citizenship
-              Consultants (CICC). After migrating to Canada in 2019, he received
-              a Certificate in Immigration Laws, Policies and Procedures Program
-              from the University of British Columbia in 2021.
-            </p>
-            <p class="block">
-              Daniel is experienced in Canadian immigration consulting and
-              global residence and citizenship planning. He has spent fifteen
-              years as a successful Case Specialist, Project Manager and
-              Department Manager at a leading immigration consulting firm in
-              Beijing, China. During this time Daniel has helped more than 1,000
-              families who chose Canada, Europe or Caribbean destinations to
-              begin their new lives.
-            </p>
-            <p class="block">
-              Located in Halifax, Nova Scotia, Gao Immigration Consulting is
-              well positioned to assist you and your family to become future
-              Canadians by matching you with one of the more than 100 available
-              Canadian immigration programs.
-            </p>
-            <p class="block">
-              Daniel is eager to serve all of your immigration needs.
+            <p class="block is-size-5">
+              高建成先生（Daniel
+              Gao），加拿大移民和公民顾问管理局会员。作为一名加拿大持牌移民顾问，Daniel在加拿大移民咨询，以及全球居留和公民身份规划方面均具有丰富的经验。在2019年移居加拿大之前，Daniel任职于国内一家大型移民咨询公司，15年间为超过1000个家庭提供了专业的服务，业务范围涉及北美、欧洲和加勒比海等国家和地区，并帮助他们顺利开启了生活的新篇章。2021年Daniel完成了不列颠哥伦比亚大学（UBC）的移民证书课程（含加拿大移民法、移民政策和移民程序），并通过了英语等级测试以及移民顾问执业考试，于2022年初完成注册手续正式成为加拿大持牌移民顾问。对于有移民需求的人士，Daniel将利用扎实的专业知识和多年的从业经验，从百余个加拿大移民项目中为您和您的家人匹配最适合的项目，协助您和家人早日实现移居加国的目标。
             </p>
           </div>
           <div class="column"></div>
