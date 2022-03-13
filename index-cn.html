@@ -12,27 +12,39 @@
     <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script>
   </head>
   <body class="has-text-black-bis">
-    <section class="hero is-large">
+    <section class="hero is-fullheight">
       <div class="hero-head">
         <nav class="navbar is-fixed-top has-background-white">
           <div class="container">
             <div class="navbar-brand">
-              <span class="navbar-item">
-                <a class="button is-info is-inverted" href="./index-cn.html">
-                  <span class="icon">
-                    <i class="fas fa-language fa-2x"></i>
-                  </span>
-                </a>
-              </span>
+              <a
+                role="button"
+                class="navbar-burger"
+                data-target="navMenu"
+                aria-label="menu"
+                aria-expanded="false"
+              >
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+              </a>
             </div>
             <div class="navbar-menu" id="navMenu">
               <div class="navbar-end">
-                <!-- <a class="navbar-item is-medium">
+                <a class="navbar-item is-medium">
                   <span class="icon-text">
                     <span class="icon">
                       <i class="fas fa-home"></i>
                     </span>
-                    <span>Home</span>
+                    <span>首页</span>
+                  </span>
+                </a>
+                <a class="navbar-item is-medium">
+                  <span class="icon-text">
+                    <span class="icon">
+                      <i class="fas fa-star"></i>
+                    </span>
+                    <span>服务</span>
                   </span>
                 </a>
                 <a class="navbar-item is-medium">
@@ -40,9 +52,24 @@
                     <span class="icon">
                       <i class="fas fa-lightbulb"></i>
                     </span>
-                    <span>About me</span>
+                    <span>关于</span>
                   </span>
-                </a> -->
+                </a>
+                <a class="navbar-item is-medium">
+                  <span class="icon-text">
+                    <span class="icon">
+                      <i class="fas fa-plug"></i>
+                    </span>
+                    <span>联系</span>
+                  </span>
+                </a>
+                <span class="navbar-item">
+                  <a class="button is-primary is-inverted" href="./index.html">
+                    <span class="icon">
+                      <i class="fas fa-language fa-2x"></i>
+                    </span>
+                  </a>
+                </span>
               </div>
             </div>
           </div>
@@ -52,77 +79,85 @@
       <div class="hero-body">
         <div class="container">
           <div class="columns is-centered">
-            <div class="column has-text-centered is-two-thirds">
+            <div class="column has-text-centered is-half">
+              <figure class="image is-128x128 is-inline-block mb-6">
+                <img
+                  class="is-rounded avatar"
+                  src="./images/Gao_avatar_2.jpg"
+                />
+              </figure>
               <div class="columns is-mobile">
                 <div class="column is-half has-text-right">
                   <figure class="is-inline-block">
-                    <img class="" src="./images/rcic.jpg" width="300" />
+                    <img class="" src="./images/rcic.jpg" width="200" />
                   </figure>
                 </div>
                 <div class="column is-half has-text-left">
                   <h1
-                    class="is-size-4 is-size-6-mobile is-family-sans-serif has-text-weight-bold pt-3"
+                    class="is-size-3 is-size-4-mobile is-family-sans-serif has-text-weight-bold"
                   >
-                    Daniel(Jiancheng) Gao
+                    Daniel Gao
                   </h1>
-                  <a
-                    href="https://college-ic.ca/protecting-the-public/find-an-immigration-consultant"
-                    class="link"
-                  >
-                    <p
-                      class="is-size-5 is-size-7-mobile has-text-grey-dark is-underlined"
-                    >
-                      Verify Status with the College of Immigration and
-                      Citizenship Consultants
-                    </p>
-                  </a>
+                  <h2 class="is-size-4 is-size-5-mobile pb-2">高建成</h2>
+                  <p class="is-size-5 is-size-7-mobile">
+                    加拿大持牌移民顾问 (RICC)
+                  </p>
                 </div>
               </div>
               <div class="column has-text-centered">
-                <div class="tabs is-centered is-small">
-                  <ul>
-                    <li class="is-active">
-                      <a>
-                        <figure class="image is-32x32 is-inline-block mb-6">
-                          <img class="is-rounded" src="./images/Gmail.png" />
-                        </figure>
-                      </a>
-                    </li>
-                    <li class="is-active">
-                      <a>
-                        <figure class="image is-32x32 is-inline-block mb-6">
-                          <img
-                            class="is-rounded"
-                            src="./images/LINE_New_App_Icon_(2020-12) 512x512.png"
-                          />
-                        </figure>
-                      </a>
-                    </li>
-                    <li class="is-active">
-                      <a>
-                        <figure class="image is-32x32 is-inline-block mb-6">
-                          <img class="is-rounded" src="./images/LinkedIn.png" />
-                        </figure>
-                      </a>
-                    </li>
-                    <li class="is-active">
-                      <a>
-                        <figure class="image is-32x32 is-inline-block mb-6">
-                          <img class="is-rounded" src="./images/WeChat.png" />
-                        </figure>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
+                <a class="button is-success is-rounded mt-5 is-outlined">
+                  <span class="icon-text">
+                    <span class="icon">
+                      <i class="fas fa-paper-plane"></i>
+                    </span>
+                    <span>联络</span>
+                  </span>
+                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
       <!-- Hero footer: will stick at the bottom -->
-      <div class="hero-foot"></div>
+      <div class="hero-foot">
+        <div class="tabs is-centered is-medium">
+          <ul>
+            <li class="is-active">
+              <a>
+                <figure class="image is-32x32 is-inline-block mb-6">
+                  <img class="is-rounded" src="./images/Gmail.png" />
+                </figure>
+              </a>
+            </li>
+            <li class="is-active">
+              <a>
+                <figure class="image is-32x32 is-inline-block mb-6">
+                  <img
+                    class="is-rounded"
+                    src="./images/LINE_New_App_Icon_(2020-12) 512x512.png"
+                  />
+                </figure>
+              </a>
+            </li>
+            <li class="is-active">
+              <a>
+                <figure class="image is-32x32 is-inline-block mb-6">
+                  <img class="is-rounded" src="./images/LinkedIn.png" />
+                </figure>
+              </a>
+            </li>
+            <li class="is-active">
+              <a>
+                <figure class="image is-32x32 is-inline-block mb-6">
+                  <img class="is-rounded" src="./images/WeChat.png" />
+                </figure>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </section>
-    <!-- <section class="section has-background-success-dark">
+    <section class="section has-background-success-dark">
       <div class="container pt-4 pb-6 has-text-centered">
         <p class="is-3 title pb-2 has-text-white">咨询服务</p>
         <div class="columns has-text-left">
@@ -192,43 +227,25 @@
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
     <section class="section has-background-white-ter">
       <div class="container pt-6 pb-6">
         <div class="columns">
           <div class="column is-full">
-            <h1 class="title">Who is Daniel Gao</h1>
+            <h1 class="title">Daneil Gao</h1>
             <p class="block is-size-5">
-              Daniel Gao is a Regulated Canadian Immigration Consultant (RCIC)
-              and an active member of the College of Immigration and Citizenship
-              Consultants (CICC). After migrating to Canada in 2019, he received
-              a Certificate in Immigration Laws, Policies and Procedures Program
-              from the University of British Columbia in 2021.
+              高建成先生（Daniel
+              Gao），加拿大移民和公民顾问管理局会员。作为一名加拿大持牌移民顾问，Daniel在加拿大移民咨询，以及全球居留和公民身份规划方面均具有丰富的经验。在2019年移居加拿大之前，Daniel任职于国内一家大型移民咨询公司，15年间为超过1000个家庭提供了专业的服务，业务范围涉及北美、欧洲和加勒比海等国家和地区，并帮助他们顺利开启了生活的新篇章。
             </p>
             <p class="block is-size-5">
-              Daniel is experienced in Canadian immigration consulting and
-              global residence and citizenship planning. He has spent fifteen
-              years as a successful Case Specialist, Project Manager and
-              Department Manager at a leading immigration consulting firm in
-              Beijing, China. During this time Daniel has helped more than 1,000
-              families who chose Canada, Europe or Caribbean destinations to
-              begin their new lives.
-            </p>
-            <p class="block is-size-5">
-              Located in Halifax, Nova Scotia, Gao Immigration Consulting is
-              well positioned to assist you and your family to become future
-              Canadians by matching you with one of the more than 100 available
-              Canadian immigration programs.
-            </p>
-            <p class="block is-size-5">
-              Daniel is eager to serve all of your immigration needs.
+              2021年Daniel完成了不列颠哥伦比亚大学（UBC）的移民证书课程（含加拿大移民法、移民政策和移民程序），并通过了英语等级测试以及移民顾问执业考试，于2022年初完成注册手续正式成为加拿大持牌移民顾问。对于有移民需求的人士，Daniel将利用扎实的专业知识和多年的从业经验，从百余个加拿大移民项目中为您和您的家人匹配最适合的项目，协助您和家人早日实现移居加国的目标。
             </p>
           </div>
           <div class="column"></div>
         </div>
       </div>
     </section>
-    <!-- <section class="section has-background-info-light">
+    <section class="section has-background-info-light">
       <div class="container py-6">
         <div class="columns is-centered">
           <div class="column is-half has-text-centered">
@@ -319,7 +336,7 @@
           </form>
         </div>
       </div>
-    </section> -->
+    </section>
   </body>
   <script defer src="./index.js"></script>
 </html>
