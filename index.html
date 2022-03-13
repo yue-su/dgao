@@ -280,11 +280,16 @@
           </div>
         </div>
         <div class="columns is-centered">
-          <div class="box column is-half">
+          <form name="contact" netlify class="box column is-half">
             <div class="field">
               <label class="label">姓名</label>
               <div class="control has-icons-left">
-                <input class="input" type="text" placeholder="请输入您的姓名" />
+                <input
+                  class="input"
+                  type="text"
+                  placeholder="请输入您的姓名"
+                  name="name"
+                />
                 <span class="icon is-small is-left">
                   <i class="fas fa-user"></i>
                 </span>
@@ -298,6 +303,7 @@
                   class="input"
                   type="email"
                   placeholder="请输入您的Email"
+                  name="email"
                 />
                 <span class="icon is-small is-left">
                   <i class="fas fa-envelope"></i>
@@ -311,15 +317,16 @@
                 <textarea
                   class="textarea"
                   placeholder="您需要咨询的问题或其他联络方式"
+                  name="message"
                 ></textarea>
               </div>
             </div>
             <div class="field is-grouped">
               <div class="control">
-                <button class="button is-link">Submit</button>
+                <button class="button is-link" type="submit">Submit</button>
               </div>
             </div>
-          </div>
+          </form>
         </div>
       </div>
     </section>
