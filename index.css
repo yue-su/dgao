@@ -5,3 +5,8 @@
 .avatar {
   border: 1px solid hsl(0, 0%, 86%);
 }
+
+.gmail {
+  border: 1px solid hsl(0, 0%, 90%);
+  padding: 3px;
+}
